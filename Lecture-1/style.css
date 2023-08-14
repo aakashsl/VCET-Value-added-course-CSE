@@ -1,0 +1,12 @@
+p{
+    color: rgb(255, 16, 16);
+}
+
+.abc{
+    color: blueviolet !important; 
+    text-align: center;
+}
+
+#def{
+    text-align: center;
+}
