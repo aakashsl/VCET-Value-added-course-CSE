@@ -1,0 +1,79 @@
+body{
+    height: 100%;
+    margin: 0;
+    background-color: aquamarine;
+    background-image:url('./images/bg1.jpeg') ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+}
+
+h1{
+    color: brown;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+/* Style for div */
+.abc{
+    background-color: blue;
+}
+
+.abc h5 ,.abc h1{
+    color: #ff6347;
+
+}
+
+.bg-form{
+    background-color: aliceblue;
+    min-height: 150px;
+    background-position: center;
+}
+
+.form{
+    right: 0;
+    margin: 5px 1px 20px 2px;
+    padding: 15px;
+}
+
+.form input{
+    width: 200px;
+    padding: 2px;
+    margin: 5px;
+    background-color: aqua;
+    opacity: 0.5;
+}
+
+.data{
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.data td ,.data th{
+    border: 1px solid black;
+}
+
+.data th{
+    text-align: left;
+    background-color: rgb(31, 241, 241);
+}
+
+.data td{
+
+    background-color: aliceblue;
+}
+
+.box{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color:blueviolet;
+}
+
+.box div{
+    background-color: white;
+    margin: 10px;
+    width: 100;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+}
