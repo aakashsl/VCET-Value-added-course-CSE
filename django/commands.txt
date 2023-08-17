@@ -1,0 +1,33 @@
+pip install django
+
+# create project
+django-admin startproject myproject
+
+cd myproject
+py manage.py startapp app_name
+# add to installed apps
+
+def function_name():
+ return None
+
+
+"127.0.0.1:8000/"
+
+"" -> func
+"home" -> func       #  127.0.0.1:8000/home
+
+from django.http import HttpResponse   # return string
+
+# create a url mapping
+from django.urls import path
+from . import views
+urlpatterns = [
+    path('', views.index),
+]
+
+
+# run the server
+py manage.py runserver
+
+# create a user
+py manage.py createsuperuser
